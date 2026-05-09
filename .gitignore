@@ -1,0 +1,16 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Obsidian local workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Trash / temp
+.trash/
+*.tmp
+*.swp
+*.swo
+
+# Optional: local plugin runtime cache, if present
+.obsidian/cache/
