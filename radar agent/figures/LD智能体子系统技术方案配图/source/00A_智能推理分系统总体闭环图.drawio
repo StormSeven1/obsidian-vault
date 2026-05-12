@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" version="26.0.0">
+  <diagram name="图A 智能推理分系统总体闭环图">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a1" value="多源触发&#xa;显控请求 / 感知事件 / 状态告警" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Noto Sans SC;fontSize=14;fillColor=#dbeafe;strokeColor=#1f4e79;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="90" y="220" width="260" height="110" as="geometry" /></mxCell>
+        <mxCell id="a2" value="任务实例与上下文装载&#xa;目标/区域/风险/证据" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Noto Sans SC;fontSize=14;fillColor=#d8f3f0;strokeColor=#2a7f7f;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="420" y="150" width="300" height="110" as="geometry" /></mxCell>
+        <mxCell id="a3" value="认知推理与路径规划&#xa;LLM + PLA/ReAct + Skills" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Noto Sans SC;fontSize=14;fillColor=#eee7ff;strokeColor=#7353a4;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="790" y="150" width="320" height="110" as="geometry" /></mxCell>
+        <mxCell id="a4" value="受控工具与工作流&#xa;查询 / 仿真 / 审批 / 回滚" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Noto Sans SC;fontSize=14;fillColor=#fff1cc;strokeColor=#b7791f;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1180" y="220" width="300" height="120" as="geometry" /></mxCell>
+        <mxCell id="a5" value="结果反馈与人机协同&#xa;研判摘要 / 参数候选 / 风险提示" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Noto Sans SC;fontSize=14;fillColor=#e5f4df;strokeColor=#4f7d4a;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1040" y="560" width="320" height="120" as="geometry" /></mxCell>
+        <mxCell id="a6" value="三阶分层记忆与经验演进&#xa;短期上下文 / 中期任务链 / 长期经验" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Noto Sans SC;fontSize=14;fillColor=#dbeafe;strokeColor=#1f4e79;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="540" y="620" width="390" height="130" as="geometry" /></mxCell>
+        <mxCell id="a7" value="安全门控与追溯治理&#xa;权限 / 参数边界 / 证据引用 / 审计回放" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Noto Sans SC;fontSize=14;fillColor=#fde2e2;strokeColor=#b44747;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="560" y="375" width="450" height="130" as="geometry" /></mxCell>
+        <mxCell id="1000" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="a1" target="a2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1001" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="a2" target="a3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1002" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="a3" target="a4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1003" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="a4" target="a5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1004" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="a5" target="a6"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1005" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="a6" target="a2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1006" value="约束" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="a3" target="a7"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1007" value="门控" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="a7" target="a4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1008" value="追溯" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;dashed=1;" edge="1" parent="1" source="a5" target="a7"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

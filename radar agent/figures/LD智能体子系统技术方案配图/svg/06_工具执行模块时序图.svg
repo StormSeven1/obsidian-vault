@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1750" height="980" viewBox="0 0 1750 980">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#52616f"/></marker><filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#1f2937" flood-opacity="0.12"/></filter></defs>
+<rect width="100%" height="100%" fill="#fbfcfe"/>
+<text x="42" y="58" font-size="30" font-weight="700" fill="#1f4e79">图4.3.3.2-6 工具执行模块时序图</text>
+<path d="M 173,140 L 300,280 L 390,280 L 543,140" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="322" y="264" width="136" height="28" rx="7" fill="#fbfcfe" stroke="#d6dee8"/>
+<text x="390" y="285" text-anchor="middle" font-size="15" fill="#64748b">1 生成执行计划</text>
+<path d="M 483,140 L 620,360 L 700,360 L 836,140" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="632" y="344" width="136" height="28" rx="7" fill="#fbfcfe" stroke="#d6dee8"/>
+<text x="700" y="365" text-anchor="middle" font-size="15" fill="#64748b">2 权限/风险/参数边界检查</text>
+<path d="M 799,140 L 930,440 L 1010,440 L 1140,140" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="942" y="424" width="136" height="28" rx="7" fill="#fbfcfe" stroke="#d6dee8"/>
+<text x="1010" y="445" text-anchor="middle" font-size="15" fill="#64748b">3 放行或补证</text>
+<path d="M 1120,140 L 1180,600 L 1280,720 L 1290,810" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1212" y="704" width="136" height="28" rx="7" fill="#fbfcfe" stroke="#d6dee8"/>
+<text x="1280" y="725" text-anchor="middle" font-size="15" fill="#64748b">4 调用查询/分析/仿真/适配工具</text>
+<path d="M 1113,140 L 1240,520 L 1320,520 L 1446,140" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1252" y="504" width="136" height="28" rx="7" fill="#fbfcfe" stroke="#d6dee8"/>
+<text x="1320" y="525" text-anchor="middle" font-size="15" fill="#64748b">5 高风险任务进入流程</text>
+<path d="M 1443,140 L 1320,630 L 1240,630 L 1116,140" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1172" y="614" width="136" height="28" rx="7" fill="#fbfcfe" stroke="#d6dee8"/>
+<text x="1240" y="635" text-anchor="middle" font-size="15" fill="#64748b">6 节点调用原子工具</text>
+<path d="M 1132,140 L 1010,700 L 620,700 L 497,140" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="552" y="684" width="136" height="28" rx="7" fill="#fbfcfe" stroke="#d6dee8"/>
+<text x="620" y="705" text-anchor="middle" font-size="15" fill="#64748b">7 标准化结果与证据编号</text>
+<path d="M 511,140 L 390,790 L 310,790 L 199,140" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="242" y="774" width="136" height="28" rx="7" fill="#fbfcfe" stroke="#d6dee8"/>
+<text x="310" y="795" text-anchor="middle" font-size="15" fill="#64748b">8 结果发布与追溯写入</text>
+<rect x="100" y="140" width="210" height="70" rx="10" fill="#d8f3f0" stroke="#2a7f7f" stroke-width="2" filter="url(#shadow)"/>
+<text x="205.0" y="184.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">运行底座</text>
+<rect x="390" y="140" width="230" height="70" rx="10" fill="#eee7ff" stroke="#7353a4" stroke-width="2" filter="url(#shadow)"/>
+<text x="505.0" y="184.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">认知核心模块</text>
+<rect x="700" y="140" width="230" height="70" rx="10" fill="#fde2e2" stroke="#b44747" stroke-width="2" filter="url(#shadow)"/>
+<text x="815.0" y="184.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">安全门控组件</text>
+<rect x="1010" y="140" width="230" height="70" rx="10" fill="#fff1cc" stroke="#b7791f" stroke-width="2" filter="url(#shadow)"/>
+<text x="1125.0" y="184.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">工具执行模块</text>
+<rect x="1320" y="140" width="230" height="70" rx="10" fill="#e5f4df" stroke="#4f7d4a" stroke-width="2" filter="url(#shadow)"/>
+<text x="1435.0" y="184.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">工作流引擎</text>
+<rect x="1110" y="720" width="350" height="90" rx="10" fill="#f1f5f9" stroke="#7b8794" stroke-width="2" filter="url(#shadow)"/>
+<text x="1285.0" y="774.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">数据库/外部工具/控制适配</text>
+<rect x="198" y="230" width="14" height="520" rx="10" fill="#f1f5f9" stroke="#7b8794" stroke-width="2" filter="url(#shadow)"/>
+<text x="205.0" y="499.0" text-anchor="middle" font-size="24" font-weight="400" fill="#1f2937"></text>
+<rect x="503" y="230" width="14" height="520" rx="10" fill="#f1f5f9" stroke="#7b8794" stroke-width="2" filter="url(#shadow)"/>
+<text x="510.0" y="499.0" text-anchor="middle" font-size="24" font-weight="400" fill="#1f2937"></text>
+<rect x="808" y="230" width="14" height="520" rx="10" fill="#f1f5f9" stroke="#7b8794" stroke-width="2" filter="url(#shadow)"/>
+<text x="815.0" y="499.0" text-anchor="middle" font-size="24" font-weight="400" fill="#1f2937"></text>
+<rect x="1118" y="230" width="14" height="520" rx="10" fill="#f1f5f9" stroke="#7b8794" stroke-width="2" filter="url(#shadow)"/>
+<text x="1125.0" y="499.0" text-anchor="middle" font-size="24" font-weight="400" fill="#1f2937"></text>
+<rect x="1428" y="230" width="14" height="520" rx="10" fill="#f1f5f9" stroke="#7b8794" stroke-width="2" filter="url(#shadow)"/>
+<text x="1435.0" y="499.0" text-anchor="middle" font-size="24" font-weight="400" fill="#1f2937"></text>
+<text x="42" y="938" font-size="18" fill="#64748b">时序图保留工程调用关系，强调工具执行模块提供原子能力，工作流引擎负责流程控制。</text>
+</svg>

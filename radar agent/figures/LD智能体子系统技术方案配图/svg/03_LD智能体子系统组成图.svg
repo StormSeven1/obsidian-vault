@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1750" height="1050" viewBox="0 0 1750 1050">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#52616f"/></marker><filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#1f2937" flood-opacity="0.12"/></filter></defs>
+<rect width="100%" height="100%" fill="#fbfcfe"/>
+<text x="42" y="58" font-size="30" font-weight="700" fill="#1f4e79">图4.3.3.2-3 LD智能体子系统组成图</text>
+<path d="M 80,235 L 567,235 L 567,200 L 1280,200" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 1280,200 L 587,200 L 587,520 L 160,520" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 890,140 L 890,360 L 615,360 L 615,620" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 890,140 L 890,360 L 945,360 L 945,620" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 500,200 L 1082,200 L 1082,520 L 1400,520" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 160,520 L 450,520 L 450,520 L 740,520" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<path d="M 160,520 L 615,520 L 615,520 L 1070,520" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 160,520 L 780,520 L 780,520 L 1400,520" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 1400,520 L 1110,520 L 1110,520 L 820,520" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 615,420 L 615,657 L 785,657 L 785,860" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<path d="M 945,420 L 945,657 L 785,657 L 785,860" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<path d="M 1400,520 L 1030,520 L 1030,795 L 490,795" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<path d="M 160,520 L 890,520 L 890,825 L 1660,825" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 820,520 L 1220,520 L 1220,825 L 1660,825" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 1275,420 L 1275,672 L 1495,672 L 1495,890" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 785,860 L 785,657 L 615,657 L 615,420" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)" stroke-dasharray="8 6"/>
+<rect x="547" y="641" width="136" height="28" rx="7" fill="#fbfcfe" stroke="#d6dee8"/>
+<text x="615" y="662" text-anchor="middle" font-size="15" fill="#64748b">经验支撑</text>
+<rect x="80" y="170" width="330" height="130" rx="10" fill="#dbeafe" stroke="#1f4e79" stroke-width="2" filter="url(#shadow)"/>
+<text x="245.0" y="214.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">输入与触发</text>
+<text x="245.0" y="244.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">显控交互 / 感知结果 / 雷达状态 /</text>
+<text x="245.0" y="274.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">外部知识</text>
+<rect x="500" y="140" width="780" height="120" rx="10" fill="#d8f3f0" stroke="#2a7f7f" stroke-width="2" filter="url(#shadow)"/>
+<text x="890.0" y="194.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">运行底座</text>
+<text x="890.0" y="224.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">任务实例管理、上下文装载、能力包调度、安全门控、运行观测、追溯记录</text>
+<rect x="160" y="420" width="250" height="200" rx="10" fill="#eee7ff" stroke="#7353a4" stroke-width="2" filter="url(#shadow)"/>
+<text x="285.0" y="469.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">认知核心模块</text>
+<text x="285.0" y="499.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">意图理解</text>
+<text x="285.0" y="529.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">任务建模</text>
+<text x="285.0" y="559.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">推理规划</text>
+<text x="285.0" y="589.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">结果生成</text>
+<rect x="490" y="420" width="250" height="200" rx="10" fill="#dbeafe" stroke="#1f4e79" stroke-width="2" filter="url(#shadow)"/>
+<text x="615.0" y="469.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">记忆管理模块</text>
+<text x="615.0" y="499.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">短期任务记忆</text>
+<text x="615.0" y="529.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">中期任务链</text>
+<text x="615.0" y="559.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">长期经验资产</text>
+<text x="615.0" y="589.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">经验回流</text>
+<rect x="820" y="420" width="250" height="200" rx="10" fill="#fff1cc" stroke="#b7791f" stroke-width="2" filter="url(#shadow)"/>
+<text x="945.0" y="469.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">工具执行模块</text>
+<text x="945.0" y="499.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">工具注册</text>
+<text x="945.0" y="529.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">参数校验</text>
+<text x="945.0" y="559.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">执行代理</text>
+<text x="945.0" y="589.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">结果回填</text>
+<rect x="1150" y="420" width="250" height="200" rx="10" fill="#e5f4df" stroke="#4f7d4a" stroke-width="2" filter="url(#shadow)"/>
+<text x="1275.0" y="469.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">工作流引擎模块</text>
+<text x="1275.0" y="499.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">模板管理</text>
+<text x="1275.0" y="529.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">节点执行</text>
+<text x="1275.0" y="559.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">人工确认</text>
+<text x="1275.0" y="589.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">异常回滚</text>
+<rect x="490" y="730" width="590" height="130" rx="10" fill="#f1f5f9" stroke="#7b8794" stroke-width="2" filter="url(#shadow)"/>
+<text x="785.0" y="789.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">数据库管理与接入模块</text>
+<text x="785.0" y="819.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">关系数据 / 向量检索 / 图关系 / 时序数据 / 统一访问</text>
+<rect x="1330" y="760" width="330" height="130" rx="10" fill="#e5f4df" stroke="#4f7d4a" stroke-width="2" filter="url(#shadow)"/>
+<text x="1495.0" y="804.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">输出与联动</text>
+<text x="1495.0" y="834.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">研判结果 / 候选参数 / 审批请求 /</text>
+<text x="1495.0" y="864.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">复盘报告 / 经验资产</text>
+</svg>

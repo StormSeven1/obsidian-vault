@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" version="26.0.0">
+  <diagram name="图4.3.3.2-5 记忆管理模块流转图">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="940" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m1" value="当前任务上下文&#xa;输入、目标、证据、工具结果" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Noto Sans SC;fontSize=14;fillColor=#dbeafe;strokeColor=#1f4e79;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="110" y="250" width="310" height="120" as="geometry" /></mxCell>
+        <mxCell id="m2" value="短期记忆&#xa;上下文版本/证据编号/临时状态" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Noto Sans SC;fontSize=14;fillColor=#d8f3f0;strokeColor=#2a7f7f;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="520" y="170" width="300" height="120" as="geometry" /></mxCell>
+        <mxCell id="m3" value="中期任务链记忆&#xa;连续交互/对象关联/阶段状态" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Noto Sans SC;fontSize=14;fillColor=#eee7ff;strokeColor=#7353a4;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="520" y="380" width="300" height="120" as="geometry" /></mxCell>
+        <mxCell id="m4" value="长期经验资产&#xa;知识/案例/策略/经验片段" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Noto Sans SC;fontSize=14;fillColor=#e5f4df;strokeColor=#4f7d4a;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="520" y="590" width="300" height="120" as="geometry" /></mxCell>
+        <mxCell id="m5" value="统一追溯记录&#xa;输入/推理/调用/审批/反馈" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Noto Sans SC;fontSize=14;fillColor=#f1f5f9;strokeColor=#7b8794;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="950" y="380" width="330" height="130" as="geometry" /></mxCell>
+        <mxCell id="m6" value="经验候选评估&#xa;效果指标/冲突检查/人工确认" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Noto Sans SC;fontSize=14;fillColor=#fff1cc;strokeColor=#b7791f;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1350" y="290" width="280" height="120" as="geometry" /></mxCell>
+        <mxCell id="m7" value="受控回流&#xa;长期沉淀/版本标识/适用范围" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Noto Sans SC;fontSize=14;fillColor=#fde2e2;strokeColor=#b44747;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1350" y="530" width="280" height="120" as="geometry" /></mxCell>
+        <mxCell id="1000" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="m1" target="m2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1001" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="m1" target="m3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1002" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="m1" target="m5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1003" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="m2" target="m3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1004" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="m3" target="m4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1005" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="m2" target="m5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1006" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="m3" target="m5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1007" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="m4" target="m5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1008" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="m5" target="m6"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1009" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="m6" target="m7"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1010" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="m7" target="m4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="1011" value="召回支撑" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52616f;endArrow=block;" edge="1" parent="1" source="m4" target="m1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="360" y="650" /><mxPoint x="260" y="650" /></Array></mxGeometry></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
