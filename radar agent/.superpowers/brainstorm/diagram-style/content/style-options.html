@@ -1,0 +1,76 @@
+<h2>LD智能体子系统配图风格选择</h2>
+<p class="subtitle">三种方向都能落为 .drawio 源文件；差异主要在 Word 报告中的正式程度、信息密度和后续 Visio 调整成本。</p>
+
+<div class="cards">
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="height:260px;display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:12px;align-items:center;padding:18px;background:#f8fafc">
+        <div style="display:grid;gap:10px">
+          <div style="border:1px solid #94a3b8;background:#fff;padding:10px;text-align:center">显控分系统</div>
+          <div style="border:1px solid #94a3b8;background:#fff;padding:10px;text-align:center">感知子系统</div>
+          <div style="border:1px solid #94a3b8;background:#fff;padding:10px;text-align:center">雷达状态</div>
+        </div>
+        <div style="border:2px solid #1f4e79;background:#eaf3fb;padding:14px">
+          <div style="text-align:center;font-weight:700;color:#1f4e79;margin-bottom:10px">LD智能体子系统</div>
+          <div style="display:grid;gap:8px">
+            <div style="background:#fff;border:1px solid #5b9bd5;padding:8px;text-align:center">运行底座</div>
+            <div style="background:#fff;border:1px solid #5b9bd5;padding:8px;text-align:center">认知核心 / 记忆 / 工具 / 工作流</div>
+            <div style="background:#fff;border:1px solid #5b9bd5;padding:8px;text-align:center">安全门控与追溯</div>
+          </div>
+        </div>
+        <div style="display:grid;gap:10px">
+          <div style="border:1px solid #94a3b8;background:#fff;padding:10px;text-align:center">控制执行链路</div>
+          <div style="border:1px solid #94a3b8;background:#fff;padding:10px;text-align:center">数据知识底座</div>
+          <div style="border:1px solid #94a3b8;background:#fff;padding:10px;text-align:center">运维评估系统</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A. 工程蓝图风格</h3>
+      <p>蓝灰配色、边界清晰、适合技术方案和 Word 正文。推荐作为默认风格。</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="height:260px;display:flex;align-items:center;justify-content:center;background:#f7f7f2;padding:20px">
+        <div style="position:relative;width:245px;height:210px;border-radius:50%;border:2px solid #335c67">
+          <div style="position:absolute;left:55px;top:78px;width:132px;height:54px;background:#fff;border:2px solid #335c67;display:flex;align-items:center;justify-content:center;font-weight:700;color:#335c67">智能推理闭环</div>
+          <div style="position:absolute;left:-12px;top:10px;background:#fff;border:1px solid #94a3b8;padding:8px">感知</div>
+          <div style="position:absolute;right:-12px;top:10px;background:#fff;border:1px solid #94a3b8;padding:8px">理解</div>
+          <div style="position:absolute;right:-16px;bottom:20px;background:#fff;border:1px solid #94a3b8;padding:8px">行动</div>
+          <div style="position:absolute;left:-16px;bottom:20px;background:#fff;border:1px solid #94a3b8;padding:8px">记忆</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B. 汇报叙事风格</h3>
+      <p>环形闭环和分层表达更醒目，适合总览图，但模块和接口细节不如 A 直接。</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="height:260px;background:#fbfbfb;padding:18px">
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px">
+          <div style="border:1px solid #888;padding:9px;text-align:center">任务触发</div>
+          <div style="border:1px solid #888;padding:9px;text-align:center">上下文</div>
+          <div style="border:1px solid #888;padding:9px;text-align:center">推理规划</div>
+          <div style="border:1px solid #888;padding:9px;text-align:center">结果反馈</div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:8px">
+          <div style="border:1px solid #aaa;background:#fff;padding:8px;text-align:center">认知核心</div>
+          <div style="border:1px solid #aaa;background:#fff;padding:8px;text-align:center">记忆管理</div>
+          <div style="border:1px solid #aaa;background:#fff;padding:8px;text-align:center">工具执行</div>
+          <div style="border:1px solid #aaa;background:#fff;padding:8px;text-align:center">工作流</div>
+          <div style="border:1px solid #aaa;background:#fff;padding:8px;text-align:center">数据接入</div>
+        </div>
+        <div style="margin-top:20px;border-top:2px solid #777;padding-top:12px;text-align:center;color:#555">接口 / 追溯 / 安全门控</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C. 极简黑白风格</h3>
+      <p>最便于打印和后期修改，但视觉层次较弱，不太适合首页级总览增强图。</p>
+    </div>
+  </div>
+</div>
