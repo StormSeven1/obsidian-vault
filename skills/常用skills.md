@@ -9,3 +9,7 @@
 * 宝玉的 skills [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills)
 
 * 学术论文生图  [LigphiDonk/academic-figure-generator: AI 驱动的学术论文配图生成平台。上传论文 → AI 分析内容生成 Prompt → 一键生成高质量科研配图，还有配套的skill可在主流agent中使用](https://github.com/LigphiDonk/academic-figure-generator)
+
+
+### PPT:
+归葬的 ppt  [op7418/guizang-ppt-skill: A Claude Code Skill that turns prompts into horizontal-swipe magazine-style HTML decks — 10 layouts, 5 curated themes, WebGL hero backgrounds, single-file output.](https://github.com/op7418/guizang-ppt-skill)

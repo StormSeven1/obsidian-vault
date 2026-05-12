@@ -54,7 +54,7 @@ class Shape:
     fill: str = "gray"
     stroke: str | None = None
     kind: str = "round"
-    font_size: int = 24
+    font_size: int = 20
     bold: bool = False
     parent: str = "1"
 
@@ -98,7 +98,7 @@ def wrap_label(label: str, max_chars: int) -> list[str]:
             lines.append("")
             continue
         width = max(4, max_chars)
-        lines.extend(textwrap.wrap(part, width=width, break_long_words=False, replace_whitespace=False) or [part])
+        lines.extend(textwrap.wrap(part, width=width, break_long_words=True, replace_whitespace=False) or [part])
     return lines
 
 
@@ -114,7 +114,7 @@ def text_size(draw: ImageDraw.ImageDraw, text: str, fnt: ImageFont.FreeTypeFont)
 
 def draw_wrapped_text(draw: ImageDraw.ImageDraw, shape: Shape, scale: float = 1.0) -> None:
     fnt = font(max(12, int(shape.font_size * scale)), shape.bold)
-    max_chars = max(5, int(shape.w / (shape.font_size * 0.58)))
+    max_chars = max(4, int(shape.w / (shape.font_size * 0.9)))
     lines = wrap_label(shape.label, max_chars)
     line_h = int(shape.font_size * 1.35 * scale)
     total_h = len(lines) * line_h
@@ -224,7 +224,7 @@ def render_png(diagram: Diagram, path: Path) -> None:
 
 
 def svg_text(shape: Shape) -> str:
-    max_chars = max(5, int(shape.w / (shape.font_size * 0.58)))
+    max_chars = max(4, int(shape.w / (shape.font_size * 0.9)))
     lines = wrap_label(shape.label, max_chars)
     y = shape.y + (shape.h - len(lines) * shape.font_size * 1.25) / 2 + shape.font_size
     parts = []
@@ -391,7 +391,7 @@ def diagrams() -> list[Diagram]:
             Shape("j2", "信息处理感知子系统\n检测/识别/跟踪/定位", 80, 330, 250, 105, "blue"),
             Shape("j3", "雷达状态与环境数据\n模式/参数/资源/环境", 80, 480, 250, 105, "blue"),
             Shape("j4", "数据知识底座\n关系/向量/图/时序", 80, 630, 250, 105, "green", kind="cylinder"),
-            Shape("j5", "LD智能体子系统边界\n运行底座贯穿任务、上下文、权限、安全门控和追溯治理", 430, 130, 850, 690, "gray", "blue_stroke", "lane", 22, True),
+            Shape("j5", "LD智能体子系统边界", 430, 130, 850, 690, "gray", "blue_stroke", "lane", 22, True),
             Shape("j6", "运行底座\n任务实例/上下文/能力包/追溯", 500, 210, 710, 90, "teal", bold=True),
             Shape("j7", "认知核心模块\n意图理解/推理规划/结果生成", 500, 350, 290, 105, "purple", bold=True),
             Shape("j8", "记忆管理模块\n短期/中期/长期经验", 920, 350, 290, 105, "blue", bold=True),
@@ -510,29 +510,27 @@ def diagrams() -> list[Diagram]:
         1750,
         980,
         [
-            Shape("s1", "运行底座", 100, 140, 210, 70, "teal", bold=True),
-            Shape("s2", "认知核心模块", 390, 140, 230, 70, "purple", bold=True),
-            Shape("s3", "安全门控组件", 700, 140, 230, 70, "red", bold=True),
-            Shape("s4", "工具执行模块", 1010, 140, 230, 70, "amber", bold=True),
-            Shape("s5", "工作流引擎", 1320, 140, 230, 70, "green", bold=True),
-            Shape("s6", "数据库/外部工具/控制适配", 1110, 720, 350, 90, "gray", bold=True),
-            Shape("l1", "", 198, 230, 14, 520, "gray", kind="round"),
-            Shape("l2", "", 503, 230, 14, 520, "gray", kind="round"),
-            Shape("l3", "", 808, 230, 14, 520, "gray", kind="round"),
-            Shape("l4", "", 1118, 230, 14, 520, "gray", kind="round"),
-            Shape("l5", "", 1428, 230, 14, 520, "gray", kind="round"),
+            Shape("s1", "运行底座", 80, 150, 260, 650, "teal", "teal_stroke", "lane", 22, True),
+            Shape("s2", "认知核心模块", 380, 150, 260, 650, "purple", "purple_stroke", "lane", 22, True),
+            Shape("s3", "安全门控组件", 680, 150, 260, 650, "red", "red_stroke", "lane", 22, True),
+            Shape("s4", "工具执行模块", 980, 150, 260, 650, "amber", "amber_stroke", "lane", 22, True),
+            Shape("s5", "工作流引擎", 1280, 150, 260, 650, "green", "green_stroke", "lane", 22, True),
+            Shape("s6", "数据库 / 外部工具 / 控制适配", 980, 830, 560, 90, "gray", bold=True),
+            Shape("t1", "1 生成执行计划", 390, 250, 230, 70, "purple", bold=True),
+            Shape("t2", "2 权限、风险、参数边界检查", 690, 340, 230, 80, "red", bold=True),
+            Shape("t3", "3 放行、阻断或补证", 990, 430, 230, 75, "amber", bold=True),
+            Shape("t4", "4 调用查询、分析、仿真工具", 990, 560, 230, 80, "amber", bold=True),
+            Shape("t5", "5 高风险任务进入流程", 1290, 430, 230, 75, "green", bold=True),
+            Shape("t6", "6 流程节点调用原子工具", 1290, 560, 230, 80, "green", bold=True),
+            Shape("t7", "7 标准化结果与证据编号", 390, 660, 230, 80, "blue", bold=True),
+            Shape("t8", "8 结果发布与追溯写入", 90, 660, 230, 80, "teal", bold=True),
         ],
         [
-            Edge("s1", "s2", "1 生成执行计划", [(300, 280), (390, 280)]),
-            Edge("s2", "s3", "2 权限/风险/参数边界检查", [(620, 360), (700, 360)]),
-            Edge("s3", "s4", "3 放行或补证", [(930, 440), (1010, 440)]),
-            Edge("s4", "s6", "4 调用查询/分析/仿真/适配工具", [(1180, 600), (1280, 720)]),
-            Edge("s4", "s5", "5 高风险任务进入流程", [(1240, 520), (1320, 520)]),
-            Edge("s5", "s4", "6 节点调用原子工具", [(1320, 630), (1240, 630)]),
-            Edge("s4", "s2", "7 标准化结果与证据编号", [(1010, 700), (620, 700)]),
-            Edge("s2", "s1", "8 结果发布与追溯写入", [(390, 790), (310, 790)]),
+            Edge("t1", "t2"), Edge("t2", "t3"), Edge("t3", "t4"), Edge("t3", "t5", "高风险"),
+            Edge("t5", "t6"), Edge("t6", "t4", "节点调用"), Edge("t4", "s6", "工具执行/状态回传"),
+            Edge("t4", "t7"), Edge("t7", "t8"),
         ],
-        "时序图保留工程调用关系，强调工具执行模块提供原子能力，工作流引擎负责流程控制。",
+        "时序图采用泳道式表达，强调工具执行模块提供原子能力，工作流引擎负责流程控制。",
     ))
 
     ds.append(Diagram(
@@ -547,7 +545,7 @@ def diagrams() -> list[Diagram]:
             Shape("k3", "雷达状态与环境服务", 80, 480, 220, 85, "blue", bold=True),
             Shape("k4", "控制执行链路", 80, 610, 220, 85, "red", bold=True),
             Shape("k5", "数据知识底座", 80, 740, 220, 85, "green", kind="cylinder", bold=True),
-            Shape("k6", "LD智能体子系统接口层\n外部接入、任务管理、认知核心、记忆读写、工具代理、工作流代理、安全门控、追溯记录、数据库接入", 420, 150, 930, 770, "gray", "blue_stroke", "lane", 21, True),
+            Shape("k6", "LD智能体子系统接口层", 420, 150, 930, 770, "gray", "blue_stroke", "lane", 21, True),
             Shape("k7", "外部接入接口", 500, 250, 230, 80, "teal", bold=True),
             Shape("k8", "任务管理接口", 820, 250, 230, 80, "teal", bold=True),
             Shape("k9", "认知核心接口", 820, 390, 230, 80, "purple", bold=True),
@@ -560,9 +558,9 @@ def diagrams() -> list[Diagram]:
             Shape("k16", "试验评估/样本/运维系统", 1460, 360, 260, 90, "green", bold=True),
         ],
         [
-            Edge("k1", "k7", "HTTP/消息", bidir=True), Edge("k2", "k7", "消息"), Edge("k3", "k7", "网络/消息"), Edge("k4", "k11", "网络通信", bidir=True), Edge("k5", "k15", "数据库/HTTP", bidir=True),
+            Edge("k1", "k7", bidir=True), Edge("k2", "k7"), Edge("k3", "k7"), Edge("k4", "k11", bidir=True), Edge("k5", "k15", bidir=True),
             Edge("k7", "k8"), Edge("k8", "k9", bidir=True), Edge("k9", "k10", bidir=True), Edge("k9", "k11", bidir=True), Edge("k9", "k12"), Edge("k11", "k13"), Edge("k12", "k13"), Edge("k10", "k15", bidir=True), Edge("k11", "k15", bidir=True), Edge("k12", "k15", bidir=True),
-            Edge("k8", "k14"), Edge("k9", "k14"), Edge("k10", "k14"), Edge("k11", "k14"), Edge("k12", "k14"), Edge("k14", "k16", "文件/HTTP", bidir=True),
+            Edge("k8", "k14"), Edge("k9", "k14"), Edge("k10", "k14"), Edge("k11", "k14"), Edge("k12", "k14"), Edge("k14", "k16", bidir=True),
         ],
         "图中只表达接口关系和软件形态，端口、完整字段、错误码和报文结构留到接口控制文件细化。",
     ))

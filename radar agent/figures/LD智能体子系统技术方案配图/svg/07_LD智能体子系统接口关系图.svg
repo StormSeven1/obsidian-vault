@@ -3,20 +3,10 @@
 <rect width="100%" height="100%" fill="#fbfcfe"/>
 <text x="42" y="58" font-size="30" font-weight="700" fill="#1f4e79">图4.3.3.2-7 LD智能体子系统接口关系图</text>
 <path d="M 80,262 L 402,262 L 402,290 L 730,290" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
-<rect x="334" y="274" width="136" height="28" rx="7" fill="#fbfcfe" stroke="#d6dee8"/>
-<text x="402" y="295" text-anchor="middle" font-size="15" fill="#64748b">HTTP/消息</text>
 <path d="M 80,392 L 402,392 L 402,290 L 730,290" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
-<rect x="334" y="274" width="136" height="28" rx="7" fill="#fbfcfe" stroke="#d6dee8"/>
-<text x="402" y="295" text-anchor="middle" font-size="15" fill="#64748b">消息</text>
 <path d="M 80,522 L 402,522 L 402,290 L 730,290" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
-<rect x="334" y="274" width="136" height="28" rx="7" fill="#fbfcfe" stroke="#d6dee8"/>
-<text x="402" y="295" text-anchor="middle" font-size="15" fill="#64748b">网络/消息</text>
 <path d="M 80,652 L 722,652 L 722,430 L 1370,430" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
-<rect x="654" y="414" width="136" height="28" rx="7" fill="#fbfcfe" stroke="#d6dee8"/>
-<text x="722" y="435" text-anchor="middle" font-size="15" fill="#64748b">网络通信</text>
 <path d="M 80,782 L 722,782 L 722,800 L 1370,800" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
-<rect x="654" y="784" width="136" height="28" rx="7" fill="#fbfcfe" stroke="#d6dee8"/>
-<text x="722" y="805" text-anchor="middle" font-size="15" fill="#64748b">数据库/HTTP</text>
 <path d="M 500,290 L 775,290 L 775,290 L 1050,290" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
 <path d="M 935,250 L 935,360 L 935,360 L 935,470" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
 <path d="M 1050,430 L 775,430 L 775,570 L 500,570" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
@@ -33,42 +23,39 @@
 <path d="M 1370,430 L 935,430 L 935,800 L 500,800" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
 <path d="M 1370,570 L 935,570 L 935,800 L 500,800" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
 <path d="M 500,800 L 1102,800 L 1102,405 L 1720,405" fill="none" stroke="#52616f" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
-<rect x="1034" y="389" width="136" height="28" rx="7" fill="#fbfcfe" stroke="#d6dee8"/>
-<text x="1102" y="410" text-anchor="middle" font-size="15" fill="#64748b">文件/HTTP</text>
 <rect x="80" y="220" width="220" height="85" rx="10" fill="#dbeafe" stroke="#1f4e79" stroke-width="2" filter="url(#shadow)"/>
-<text x="190.0" y="271.5" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">显控分系统</text>
+<text x="190.0" y="270.0" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">显控分系统</text>
 <rect x="80" y="350" width="220" height="85" rx="10" fill="#dbeafe" stroke="#1f4e79" stroke-width="2" filter="url(#shadow)"/>
-<text x="190.0" y="401.5" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">信息处理感知子系统</text>
+<text x="190.0" y="400.0" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">信息处理感知子系统</text>
 <rect x="80" y="480" width="220" height="85" rx="10" fill="#dbeafe" stroke="#1f4e79" stroke-width="2" filter="url(#shadow)"/>
-<text x="190.0" y="531.5" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">雷达状态与环境服务</text>
+<text x="190.0" y="530.0" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">雷达状态与环境服务</text>
 <rect x="80" y="610" width="220" height="85" rx="10" fill="#fde2e2" stroke="#b44747" stroke-width="2" filter="url(#shadow)"/>
-<text x="190.0" y="661.5" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">控制执行链路</text>
+<text x="190.0" y="660.0" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">控制执行链路</text>
 <rect x="80" y="748" width="220" height="77" rx="8" fill="#e5f4df" stroke="#4f7d4a" stroke-width="2" filter="url(#shadow)"/>
 <ellipse cx="190.0" cy="749" rx="110.0" ry="9" fill="#e5f4df" stroke="#4f7d4a" stroke-width="2"/>
-<text x="190.0" y="791.5" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">数据知识底座</text>
+<text x="190.0" y="790.0" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">数据知识底座</text>
 <rect x="420" y="150" width="930" height="770" rx="10" fill="#f1f5f9" stroke="#1f4e79" stroke-width="2" filter="url(#shadow)"/>
 <rect x="420" y="150" width="930" height="36" rx="10" fill="#1f4e79"/>
 <text x="434" y="174" font-size="17" font-weight="700" fill="#fff">LD智能体子系统接口层</text>
-<text x="885.0" y="563.9" text-anchor="middle" font-size="21" font-weight="700" fill="#1f2937">外部接入、任务管理、认知核心、记忆读写、工具代理、工作流代理、安全门控、追溯记录、数据库接入</text>
 <rect x="500" y="250" width="230" height="80" rx="10" fill="#d8f3f0" stroke="#2a7f7f" stroke-width="2" filter="url(#shadow)"/>
-<text x="615.0" y="299.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">外部接入接口</text>
+<text x="615.0" y="297.5" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">外部接入接口</text>
 <rect x="820" y="250" width="230" height="80" rx="10" fill="#d8f3f0" stroke="#2a7f7f" stroke-width="2" filter="url(#shadow)"/>
-<text x="935.0" y="299.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">任务管理接口</text>
+<text x="935.0" y="297.5" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">任务管理接口</text>
 <rect x="820" y="390" width="230" height="80" rx="10" fill="#eee7ff" stroke="#7353a4" stroke-width="2" filter="url(#shadow)"/>
-<text x="935.0" y="439.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">认知核心接口</text>
+<text x="935.0" y="437.5" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">认知核心接口</text>
 <rect x="500" y="530" width="230" height="80" rx="10" fill="#dbeafe" stroke="#1f4e79" stroke-width="2" filter="url(#shadow)"/>
-<text x="615.0" y="579.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">记忆读写接口</text>
+<text x="615.0" y="577.5" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">记忆读写接口</text>
 <rect x="1140" y="390" width="230" height="80" rx="10" fill="#fff1cc" stroke="#b7791f" stroke-width="2" filter="url(#shadow)"/>
-<text x="1255.0" y="439.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">工具代理接口</text>
+<text x="1255.0" y="437.5" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">工具代理接口</text>
 <rect x="1140" y="530" width="230" height="80" rx="10" fill="#e5f4df" stroke="#4f7d4a" stroke-width="2" filter="url(#shadow)"/>
-<text x="1255.0" y="579.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">工作流代理接口</text>
+<text x="1255.0" y="577.5" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">工作流代理接口</text>
 <rect x="820" y="660" width="230" height="80" rx="10" fill="#fde2e2" stroke="#b44747" stroke-width="2" filter="url(#shadow)"/>
-<text x="935.0" y="709.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">安全门控接口</text>
+<text x="935.0" y="707.5" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">安全门控接口</text>
 <rect x="500" y="760" width="230" height="80" rx="10" fill="#f1f5f9" stroke="#7b8794" stroke-width="2" filter="url(#shadow)"/>
-<text x="615.0" y="809.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">追溯记录接口</text>
+<text x="615.0" y="807.5" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">追溯记录接口</text>
 <rect x="1140" y="760" width="230" height="80" rx="10" fill="#f1f5f9" stroke="#7b8794" stroke-width="2" filter="url(#shadow)"/>
-<text x="1255.0" y="809.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">数据库接入接口</text>
+<text x="1255.0" y="807.5" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">数据库接入接口</text>
 <rect x="1460" y="360" width="260" height="90" rx="10" fill="#e5f4df" stroke="#4f7d4a" stroke-width="2" filter="url(#shadow)"/>
-<text x="1590.0" y="414.0" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">试验评估/样本/运维系统</text>
+<text x="1590.0" y="412.5" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">试验评估/样本/运维系统</text>
 <text x="42" y="978" font-size="18" fill="#64748b">图中只表达接口关系和软件形态，端口、完整字段、错误码和报文结构留到接口控制文件细化。</text>
 </svg>
