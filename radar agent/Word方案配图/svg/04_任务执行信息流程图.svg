@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1300" viewBox="0 0 2200 1300">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#173A5E"/></marker>
+<style>text{font-family:"Microsoft YaHei","Noto Sans SC",Arial,sans-serif;dominant-baseline:middle}</style>
+</defs>
+<rect x="0" y="0" width="2200" height="1300" rx="0" fill="#F7FAFC" stroke="#F7FAFC" stroke-width="0"/>
+<rect x="0" y="0" width="2200" height="112" rx="0" fill="#173A5E" stroke="#173A5E" stroke-width="0"/>
+<text text-anchor="start" font-size="34" font-weight="700" fill="#FFFFFF"><tspan x="54" y="52.0">图 4.3.3.2-4 雷达智能体子系统执行信息流程图</tspan></text>
+<text text-anchor="end" font-size="20" font-weight="400" fill="#D9E7F5"><tspan x="2140" y="53.0">任务实例主线 / 风险分流 / 追溯回流</tspan></text>
+<line x1="54" y1="1190" x2="2146" y2="1190" stroke="#C8D3DF" stroke-width="2" stroke-linecap="round"/>
+<rect x="95" y="285" width="265" height="150" rx="20" fill="#DDEBFA" stroke="#2563A6" stroke-width="3"/>
+<rect x="113" y="305" width="44" height="44" rx="22" fill="#2563A6" stroke="#2563A6" stroke-width="0"/>
+<text text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF"><tspan x="135.0" y="327.0">1</tspan></text>
+<text text-anchor="start" font-size="23" font-weight="700" fill="#2563A6"><tspan x="173" y="322.0">任务触发</tspan></text>
+<text text-anchor="start" font-size="20" font-weight="400" fill="#142033"><tspan x="123" y="371.2">显控请求</tspan><tspan x="123" y="399.6">感知事件</tspan><tspan x="123" y="428.0">状态告警</tspan></text>
+<rect x="375" y="285" width="265" height="150" rx="20" fill="#DDEBFA" stroke="#2563A6" stroke-width="3"/>
+<rect x="393" y="305" width="44" height="44" rx="22" fill="#2563A6" stroke="#2563A6" stroke-width="0"/>
+<text text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF"><tspan x="415.0" y="327.0">2</tspan></text>
+<text text-anchor="start" font-size="23" font-weight="700" fill="#2563A6"><tspan x="453" y="322.0">任务实例</tspan></text>
+<text text-anchor="start" font-size="20" font-weight="400" fill="#142033"><tspan x="403" y="371.2">任务编号</tspan><tspan x="403" y="399.6">对象引用</tspan><tspan x="403" y="428.0">风险等级</tspan></text>
+<rect x="655" y="285" width="265" height="150" rx="20" fill="#EEE8FF" stroke="#6950A1" stroke-width="3"/>
+<rect x="673" y="305" width="44" height="44" rx="22" fill="#6950A1" stroke="#6950A1" stroke-width="0"/>
+<text text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF"><tspan x="695.0" y="327.0">3</tspan></text>
+<text text-anchor="start" font-size="23" font-weight="700" fill="#6950A1"><tspan x="733" y="322.0">上下文装载</tspan></text>
+<text text-anchor="start" font-size="20" font-weight="400" fill="#142033"><tspan x="683" y="371.2">感知证据</tspan><tspan x="683" y="399.6">雷达状态</tspan><tspan x="683" y="428.0">历史引用</tspan></text>
+<rect x="935" y="285" width="265" height="150" rx="20" fill="#EEE8FF" stroke="#6950A1" stroke-width="3"/>
+<rect x="953" y="305" width="44" height="44" rx="22" fill="#6950A1" stroke="#6950A1" stroke-width="0"/>
+<text text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF"><tspan x="975.0" y="327.0">4</tspan></text>
+<text text-anchor="start" font-size="23" font-weight="700" fill="#6950A1"><tspan x="1013" y="322.0">意图建模</tspan></text>
+<text text-anchor="start" font-size="20" font-weight="400" fill="#142033"><tspan x="963" y="371.2">任务目标</tspan><tspan x="963" y="399.6">约束条件</tspan><tspan x="963" y="428.0">输出要求</tspan></text>
+<rect x="1215" y="285" width="265" height="150" rx="20" fill="#FFF0CC" stroke="#B06A00" stroke-width="3"/>
+<rect x="1233" y="305" width="44" height="44" rx="22" fill="#B06A00" stroke="#B06A00" stroke-width="0"/>
+<text text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF"><tspan x="1255.0" y="327.0">5</tspan></text>
+<text text-anchor="start" font-size="23" font-weight="700" fill="#B06A00"><tspan x="1293" y="322.0">路径选择</tspan></text>
+<text text-anchor="start" font-size="20" font-weight="400" fill="#142033"><tspan x="1243" y="371.2">能力包</tspan><tspan x="1243" y="399.6">工具清单</tspan><tspan x="1243" y="428.0">门控校验</tspan></text>
+<rect x="1770" y="285" width="265" height="150" rx="20" fill="#E3F3DC" stroke="#477A36" stroke-width="3"/>
+<rect x="1788" y="305" width="44" height="44" rx="22" fill="#477A36" stroke="#477A36" stroke-width="0"/>
+<text text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF"><tspan x="1810.0" y="327.0">6</tspan></text>
+<text text-anchor="start" font-size="23" font-weight="700" fill="#477A36"><tspan x="1848" y="322.0">结果发布</tspan></text>
+<text text-anchor="start" font-size="20" font-weight="400" fill="#142033"><tspan x="1798" y="371.2">摘要</tspan><tspan x="1798" y="399.6">证据链</tspan><tspan x="1798" y="428.0">流程状态</tspan></text>
+<rect x="1770" y="565" width="265" height="150" rx="20" fill="#E3F3DC" stroke="#477A36" stroke-width="3"/>
+<rect x="1788" y="585" width="44" height="44" rx="22" fill="#477A36" stroke="#477A36" stroke-width="0"/>
+<text text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF"><tspan x="1810.0" y="607.0">7</tspan></text>
+<text text-anchor="start" font-size="23" font-weight="700" fill="#477A36"><tspan x="1848" y="602.0">追溯记忆</tspan></text>
+<text text-anchor="start" font-size="20" font-weight="400" fill="#142033"><tspan x="1798" y="651.2">上下文快照</tspan><tspan x="1798" y="679.6">工具/审批</tspan><tspan x="1798" y="708.0">经验候选</tspan></text>
+<line x1="360" y1="360" x2="375" y2="360" stroke="#173A5E" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="640" y1="360" x2="655" y2="360" stroke="#173A5E" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="920" y1="360" x2="935" y2="360" stroke="#173A5E" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1200" y1="360" x2="1215" y2="360" stroke="#173A5E" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="1180" y="555" width="320" height="155" rx="20" fill="#D9F2EE" stroke="#0F766E" stroke-width="3"/>
+<text text-anchor="middle" font-size="27" font-weight="700" fill="#0F766E"><tspan x="1340.0" y="597.5">低风险路径</tspan></text>
+<text text-anchor="middle" font-size="23" font-weight="400" fill="#142033"><tspan x="1340.0" y="641.2">动态研判与</tspan><tspan x="1340.0" y="673.8">ReAct工具调用</tspan></text>
+<rect x="1180" y="805" width="320" height="155" rx="20" fill="#FDE2E2" stroke="#B43A3A" stroke-width="3"/>
+<text text-anchor="middle" font-size="27" font-weight="700" fill="#B43A3A"><tspan x="1340.0" y="847.5">高风险路径</tspan></text>
+<text text-anchor="middle" font-size="23" font-weight="400" fill="#142033"><tspan x="1340.0" y="891.2">受控工作流编排</tspan><tspan x="1340.0" y="923.8">校验、审批、回滚</tspan></text>
+<line x1="1480" y1="360" x2="1770" y2="360" stroke="#477A36" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1340" y1="435" x2="1340" y2="555" stroke="#0F766E" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1340" y1="435" x2="1340" y2="805" stroke="#B43A3A" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1500" y1="635" x2="1770" y2="360" stroke="#0F766E" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1500" y1="885" x2="1770" y2="640" stroke="#B43A3A" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1902" y1="565" x2="1902" y2="435" stroke="#477A36" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1770" y1="640" x2="1498" y2="885" stroke="#B43A3A" stroke-width="3" stroke-linecap="round" stroke-dasharray="12 10"/>
+<text text-anchor="middle" font-size="22" font-weight="400" fill="#607085"><tspan x="1100.0" y="1231.0">只读研判和推荐生成可动态调用工具；涉及参数设置、模式切换和回滚恢复时进入受控工作流。</tspan></text>
+</svg>

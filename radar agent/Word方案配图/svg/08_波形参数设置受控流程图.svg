@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1300" viewBox="0 0 2200 1300">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#173A5E"/></marker>
+<style>text{font-family:"Microsoft YaHei","Noto Sans SC",Arial,sans-serif;dominant-baseline:middle}</style>
+</defs>
+<rect x="0" y="0" width="2200" height="1300" rx="0" fill="#F7FAFC" stroke="#F7FAFC" stroke-width="0"/>
+<rect x="0" y="0" width="2200" height="112" rx="0" fill="#173A5E" stroke="#173A5E" stroke-width="0"/>
+<text text-anchor="start" font-size="34" font-weight="700" fill="#FFFFFF"><tspan x="54" y="52.0">图 4.3.3.2-8 波形参数设置受控流程图</tspan></text>
+<text text-anchor="end" font-size="20" font-weight="400" fill="#D9E7F5"><tspan x="2140" y="53.0">候选方案 / 校验仿真 / 人工确认 / 状态回传</tspan></text>
+<line x1="54" y1="1190" x2="2146" y2="1190" stroke="#C8D3DF" stroke-width="2" stroke-linecap="round"/>
+<rect x="110" y="265" width="520" height="170" rx="22" fill="#DDEBFA" stroke="#2563A6" stroke-width="3"/>
+<rect x="136" y="293" width="50" height="50" rx="25" fill="#2563A6" stroke="#2563A6" stroke-width="0"/>
+<text text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF"><tspan x="161.0" y="318.0">1</tspan></text>
+<text text-anchor="start" font-size="29" font-weight="700" fill="#2563A6"><tspan x="205" y="308.0">候选方案生成</tspan></text>
+<text text-anchor="start" font-size="22" font-weight="400" fill="#142033"><tspan x="205" y="358.6">认知核心结合任务目标、目标状态、雷达</tspan><tspan x="205" y="389.9">资源和历史效果形成候选参数。</tspan></text>
+<rect x="745" y="265" width="520" height="170" rx="22" fill="#EEE8FF" stroke="#6950A1" stroke-width="3"/>
+<rect x="771" y="293" width="50" height="50" rx="25" fill="#6950A1" stroke="#6950A1" stroke-width="0"/>
+<text text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF"><tspan x="796.0" y="318.0">2</tspan></text>
+<text text-anchor="start" font-size="29" font-weight="700" fill="#6950A1"><tspan x="840" y="308.0">参数边界校验</tspan></text>
+<text text-anchor="start" font-size="22" font-weight="400" fill="#142033"><tspan x="840" y="358.6">检查频段、功率、波束资源、检测门限和</tspan><tspan x="840" y="389.9">跟踪参数边界。</tspan></text>
+<rect x="1380" y="265" width="520" height="170" rx="22" fill="#FFF0CC" stroke="#B06A00" stroke-width="3"/>
+<rect x="1406" y="293" width="50" height="50" rx="25" fill="#B06A00" stroke="#B06A00" stroke-width="0"/>
+<text text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF"><tspan x="1431.0" y="318.0">3</tspan></text>
+<text text-anchor="start" font-size="29" font-weight="700" fill="#B06A00"><tspan x="1475" y="308.0">仿真评估</tspan></text>
+<text text-anchor="start" font-size="22" font-weight="400" fill="#142033"><tspan x="1475" y="358.6">评估预期效果、风险点、适用条件和回滚</tspan><tspan x="1475" y="389.9">条件。</tspan></text>
+<rect x="1380" y="665" width="520" height="170" rx="22" fill="#FDE2E2" stroke="#B43A3A" stroke-width="3"/>
+<rect x="1406" y="693" width="50" height="50" rx="25" fill="#B43A3A" stroke="#B43A3A" stroke-width="0"/>
+<text text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF"><tspan x="1431.0" y="718.0">4</tspan></text>
+<text text-anchor="start" font-size="29" font-weight="700" fill="#B43A3A"><tspan x="1475" y="708.0">人工确认</tspan></text>
+<text text-anchor="start" font-size="22" font-weight="400" fill="#142033"><tspan x="1475" y="758.6">显控分系统展示风险提示、待确认事项和</tspan><tspan x="1475" y="789.9">审批回调。</tspan></text>
+<rect x="745" y="665" width="520" height="170" rx="22" fill="#D9F2EE" stroke="#0F766E" stroke-width="3"/>
+<rect x="771" y="693" width="50" height="50" rx="25" fill="#0F766E" stroke="#0F766E" stroke-width="0"/>
+<text text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF"><tspan x="796.0" y="718.0">5</tspan></text>
+<text text-anchor="start" font-size="29" font-weight="700" fill="#0F766E"><tspan x="840" y="708.0">控制请求适配</tspan></text>
+<text text-anchor="start" font-size="22" font-weight="400" fill="#142033"><tspan x="840" y="758.6">按控制链路接口组织经审批的控制请求和</tspan><tspan x="840" y="789.9">检查点信息。</tspan></text>
+<rect x="110" y="665" width="520" height="170" rx="22" fill="#E3F3DC" stroke="#477A36" stroke-width="3"/>
+<rect x="136" y="693" width="50" height="50" rx="25" fill="#477A36" stroke="#477A36" stroke-width="0"/>
+<text text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF"><tspan x="161.0" y="718.0">6</tspan></text>
+<text text-anchor="start" font-size="29" font-weight="700" fill="#477A36"><tspan x="205" y="708.0">状态跟踪与回滚</tspan></text>
+<text text-anchor="start" font-size="22" font-weight="400" fill="#142033"><tspan x="205" y="758.6">跟踪受理、执行、异常、效果指标和回滚</tspan><tspan x="205" y="789.9">结果。</tspan></text>
+<line x1="630" y1="350" x2="745" y2="350" stroke="#173A5E" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1265" y1="350" x2="1380" y2="350" stroke="#173A5E" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1640" y1="435" x2="1640" y2="665" stroke="#173A5E" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1380" y1="750" x2="1265" y2="750" stroke="#173A5E" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="745" y1="750" x2="630" y2="750" stroke="#173A5E" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="370" y1="665" x2="370" y2="435" stroke="#477A36" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 10" marker-end="url(#arrow)"/>
+<rect x="790" y="1040" width="620" height="74" rx="20" fill="#EDF2F7" stroke="#C8D3DF" stroke-width="3"/>
+<text text-anchor="middle" font-size="24" font-weight="700" fill="#142033"><tspan x="1100.0" y="1058.0">效果指标、异常信息和操作员反馈进入追溯记录与记忆回</tspan><tspan x="1100.0" y="1092.0">流</tspan></text>
+<text text-anchor="middle" font-size="22" font-weight="400" fill="#607085"><tspan x="1100.0" y="1231.0">该流程用于说明控制链路安全边界：智能体生成候选方案，工作流完成校验审批，控制执行链路完成真实下发。</tspan></text>
+</svg>
