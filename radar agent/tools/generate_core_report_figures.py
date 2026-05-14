@@ -424,8 +424,8 @@ def work_principle() -> Fig:
         g.line(x1, 1154, x2, 1154, P["red"], 3)
     g.text(1455, 1205, 910, 32, "适用：波形参数调整、工作模式切换、控制请求适配和回滚恢复等高风险任务。", 20, P["muted"], False)
 
-    g.line(1660, 476, 1660, 1020, P["red"], 3, True, True)
-    g.line(1660, 476, 670, 1020, P["teal"], 3, True, True)
+    g.rect(980, 948, 640, 46, P["gray"], P["line"], 14, 2)
+    g.text(1005, 956, 590, 28, "执行路径按风险等级与标准化程度分治", 21, P["ink"], True)
 
     # Time classes
     g.rect(520, 1320, 1560, 58, P["gray"], P["line"], 14, 2)
