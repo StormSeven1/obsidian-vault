@@ -1,0 +1,28 @@
+{
+  "output": "D:\\knowledge\\radar agent\\系统软件总体架构设计.pptx",
+  "outputBytes": 31731,
+  "slideCount": 1,
+  "slideSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "previewDir": "D:\\knowledge\\radar agent\\.codex-presentations-manual-20260515-arch\\preview",
+  "previewPaths": [
+    "D:\\knowledge\\radar agent\\.codex-presentations-manual-20260515-arch\\preview\\slide-01.png"
+  ],
+  "layoutDir": "D:\\knowledge\\radar agent\\.codex-presentations-manual-20260515-arch\\layout",
+  "layoutResults": [
+    {
+      "layoutPath": "D:\\knowledge\\radar agent\\.codex-presentations-manual-20260515-arch\\layout\\slide-01.layout.json"
+    }
+  ],
+  "contactSheet": "D:\\knowledge\\radar agent\\.codex-presentations-manual-20260515-arch\\preview\\contact-sheet.png",
+  "slides": [
+    {
+      "index": 1,
+      "requestedSlideNumber": 1,
+      "modulePath": "D:\\knowledge\\radar agent\\.codex-presentations-manual-20260515-arch\\slides\\slide-01.mjs",
+      "exportName": "slide01"
+    }
+  ]
+}
