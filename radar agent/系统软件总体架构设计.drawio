@@ -86,13 +86,16 @@
         <mxCell id="app5" value="运维诊断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b9c9e3;fontColor=#0b2c69;fontSize=14;spacingLeft=34;arcSize=8;" vertex="1" parent="1">
           <mxGeometry x="785" y="140" width="130" height="42" as="geometry"/>
         </mxCell>
-        <mxCell id="app5-icon" value="" style="shape=stethoscope;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#164d9a;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="app5-icon" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#164d9a;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="800" y="148" width="25" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="app5-handle" value="" style="shape=line;strokeColor=#164d9a;strokeWidth=2;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="821" y="168" width="14" height="1" as="geometry"/>
         </mxCell>
         <mxCell id="svc1" value="阵面控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b9c9e3;fontColor=#0b2c69;fontSize=14;spacingLeft=34;arcSize=8;" vertex="1" parent="1">
           <mxGeometry x="205" y="230" width="125" height="42" as="geometry"/>
         </mxCell>
-        <mxCell id="svc1-icon" value="" style="shape=mxgraph.electrical.radio.radio_tower;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#164d9a;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="svc1-icon" value="" style="shape=triangle;direction=north;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#164d9a;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="220" y="238" width="24" height="28" as="geometry"/>
         </mxCell>
         <mxCell id="svc2" value="信息处理感知" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b9c9e3;fontColor=#0b2c69;fontSize=14;spacingLeft=34;arcSize=8;" vertex="1" parent="1">
@@ -137,8 +140,20 @@
         <mxCell id="data1" value="DDS/消息总线" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b9c9e3;fontColor=#0b2c69;fontSize=14;spacingLeft=34;arcSize=8;" vertex="1" parent="1">
           <mxGeometry x="205" y="320" width="145" height="42" as="geometry"/>
         </mxCell>
-        <mxCell id="data1-icon" value="" style="shape=mxgraph.networks.bus;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#164d9a;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="220" y="330" width="25" height="22" as="geometry"/>
+        <mxCell id="data1-icon" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#164d9a;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="219" y="331" width="7" height="7" as="geometry"/>
+        </mxCell>
+        <mxCell id="data1-icon-b" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#164d9a;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="238" y="331" width="7" height="7" as="geometry"/>
+        </mxCell>
+        <mxCell id="data1-icon-c" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#164d9a;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="229" y="348" width="7" height="7" as="geometry"/>
+        </mxCell>
+        <mxCell id="data1-line-a" value="" style="shape=line;strokeColor=#164d9a;strokeWidth=2;rotation=25;" vertex="1" parent="1">
+          <mxGeometry x="224" y="340" width="12" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="data1-line-b" value="" style="shape=line;strokeColor=#164d9a;strokeWidth=2;rotation=-25;" vertex="1" parent="1">
+          <mxGeometry x="235" y="340" width="12" height="1" as="geometry"/>
         </mxCell>
         <mxCell id="data2" value="HTTP/gRPC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b9c9e3;fontColor=#0b2c69;fontSize=14;spacingLeft=34;arcSize=8;" vertex="1" parent="1">
           <mxGeometry x="370" y="320" width="145" height="42" as="geometry"/>
@@ -179,8 +194,14 @@
         <mxCell id="res3" value="网络资源" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b9c9e3;fontColor=#0b2c69;fontSize=14;spacingLeft=34;arcSize=8;" vertex="1" parent="1">
           <mxGeometry x="600" y="410" width="145" height="42" as="geometry"/>
         </mxCell>
-        <mxCell id="res3-icon" value="" style="ellipse;shape=globe;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#164d9a;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="res3-icon" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#164d9a;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="615" y="419" width="24" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="res3-line-a" value="" style="shape=line;strokeColor=#164d9a;strokeWidth=1.5;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="617" y="431" width="20" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="res3-line-b" value="" style="shape=line;strokeColor=#164d9a;strokeWidth=1.5;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="627" y="421" width="20" height="1" as="geometry"/>
         </mxCell>
         <mxCell id="res4" value="时统资源" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b9c9e3;fontColor=#0b2c69;fontSize=14;spacingLeft=34;arcSize=8;" vertex="1" parent="1">
           <mxGeometry x="790" y="410" width="145" height="42" as="geometry"/>
@@ -237,7 +258,7 @@
         <mxCell id="gov1" value="安全门控" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b9c9e3;fontColor=#0b2c69;fontSize=15;fontStyle=1;spacingLeft=44;arcSize=6;" vertex="1" parent="1">
           <mxGeometry x="165" y="532" width="180" height="42" as="geometry"/>
         </mxCell>
-        <mxCell id="gov1-icon" value="" style="shape=mxgraph.ios7.misc.shield;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#164d9a;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="gov1-icon" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#164d9a;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="190" y="539" width="28" height="28" as="geometry"/>
         </mxCell>
         <mxCell id="gov-split1" value="" style="shape=line;strokeColor=#aab9d2;strokeWidth=1.5;rotation=90;" vertex="1" parent="1">
