@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2563eb"/>
+    </marker>
+    <filter id="softShadow" x="-8%" y="-12%" width="116%" height="128%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#1d4ed8" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="1600" height="960" fill="#f8fbff"/>
+  <line x1="0" y1="0" x2="0" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="80" y1="0" x2="80" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="160" y1="0" x2="160" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="240" y1="0" x2="240" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="320" y1="0" x2="320" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="400" y1="0" x2="400" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="480" y1="0" x2="480" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="560" y1="0" x2="560" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="640" y1="0" x2="640" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="720" y1="0" x2="720" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="800" y1="0" x2="800" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="880" y1="0" x2="880" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="960" y1="0" x2="960" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="1040" y1="0" x2="1040" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="1120" y1="0" x2="1120" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="1200" y1="0" x2="1200" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="1280" y1="0" x2="1280" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="1360" y1="0" x2="1360" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="1440" y1="0" x2="1440" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="1520" y1="0" x2="1520" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="1600" y1="0" x2="1600" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="0" y1="0" x2="1600" y2="0" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="0" y1="80" x2="1600" y2="80" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="0" y1="160" x2="1600" y2="160" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="0" y1="240" x2="1600" y2="240" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="0" y1="320" x2="1600" y2="320" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="0" y1="400" x2="1600" y2="400" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="0" y1="480" x2="1600" y2="480" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="0" y1="560" x2="1600" y2="560" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="0" y1="640" x2="1600" y2="640" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="0" y1="720" x2="1600" y2="720" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="0" y1="800" x2="1600" y2="800" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="0" y1="880" x2="1600" y2="880" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <line x1="0" y1="960" x2="1600" y2="960" stroke="#e6f0ff" stroke-width="1" opacity="0.45"/>
+  <rect x="30" y="30" width="1540" height="900" rx="26" fill="none" stroke="#bfdbfe" stroke-width="2"/>
+  <line x1="390" y1="245" x2="520" y2="191" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.9"/>
+  <line x1="770" y1="191" x2="860" y2="191" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.9"/>
+  <line x1="860" y1="191" x2="940" y2="346" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.9"/>
+  <line x1="690" y1="346" x2="770" y2="191" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.9"/>
+  <line x1="645" y1="237" x2="645" y2="475" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.9"/>
+  <line x1="770" y1="523" x2="860" y2="506" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.9"/>
+  <line x1="1050" y1="506" x2="1090" y2="506" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.9"/>
+  <line x1="1280" y1="506" x2="1320" y2="506" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.9"/>
+  <path d="M 1320 506 L 1160 506 L 1160 703 L 1000 703" fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" stroke-linejoin="round" opacity="0.9"/>
+  <line x1="985" y1="237" x2="852.5" y2="665" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.9"/>
+  <line x1="770" y1="523" x2="705" y2="703" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.9"/>
+  <path d="M 705 703 L 562.5 703 L 562.5 806 L 420 806" fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" stroke-linejoin="round" opacity="0.9"/>
+  <line x1="420" y1="806" x2="550" y2="806" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.9"/>
+  <line x1="790" y1="806" x2="920" y2="806" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.9"/>
+  <line x1="1160" y1="806" x2="1230" y2="806" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.9"/>
+  <path d="M 1230 806 L 810 806 L 810 245 L 390 245" fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" stroke-linejoin="round" opacity="0.9"/>
+  <rect x="110" y="120" width="280" height="250" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2.4" filter="url(#softShadow)"/>
+<text x="250" y="152" text-anchor="middle" dominant-baseline="middle" fill="#17376b" font-size="23" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-weight="600"><tspan x="250" dy="0">雷达 Skills 能力包</tspan><tspan x="250" dy="31"></tspan><tspan x="250" dy="31">目标研判 Skill</tspan><tspan x="250" dy="31">波形参数推荐 Skill</tspan><tspan x="250" dy="31">智能调度 Skill</tspan><tspan x="250" dy="31">复盘生成 Skill</tspan><tspan x="250" dy="31">质量检查规则</tspan></text>
+  <rect x="520" y="145" width="250" height="92" rx="14" fill="#ecfeff" stroke="#2563eb" stroke-width="2.4" filter="url(#softShadow)"/>
+<text x="645" y="175.5" text-anchor="middle" dominant-baseline="middle" fill="#17376b" font-size="23" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-weight="600"><tspan x="645" dy="0">推理</tspan><tspan x="645" dy="31">任务理解/证据解释</tspan></text>
+  <rect x="860" y="145" width="250" height="92" rx="14" fill="#ffffff" stroke="#2563eb" stroke-width="2.4" filter="url(#softShadow)"/>
+<text x="985" y="175.5" text-anchor="middle" dominant-baseline="middle" fill="#17376b" font-size="23" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-weight="600"><tspan x="985" dy="0">工具调用</tspan><tspan x="985" dy="31">查询/计算/仿真/校验</tspan></text>
+  <rect x="690" y="300" width="250" height="92" rx="14" fill="#ffffff" stroke="#2563eb" stroke-width="2.4" filter="url(#softShadow)"/>
+<text x="815" y="330.5" text-anchor="middle" dominant-baseline="middle" fill="#17376b" font-size="23" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-weight="600"><tspan x="815" dy="0">观察反馈</tspan><tspan x="815" dy="31">工具结果/证据补充</tspan></text>
+  <rect x="520" y="475" width="250" height="96" rx="14" fill="#ecfeff" stroke="#2563eb" stroke-width="2.4" filter="url(#softShadow)"/>
+<text x="645" y="507.5" text-anchor="middle" dominant-baseline="middle" fill="#17376b" font-size="23" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-weight="600"><tspan x="645" dy="0">候选方案包</tspan><tspan x="645" dy="31">参数/依据/风险/回滚</tspan></text>
+  <rect x="860" y="465" width="190" height="82" rx="14" fill="#ffffff" stroke="#2563eb" stroke-width="2.4" filter="url(#softShadow)"/>
+<text x="955" y="491.5" text-anchor="middle" dominant-baseline="middle" fill="#17376b" font-size="21" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-weight="600"><tspan x="955" dy="0">边界校验</tspan><tspan x="955" dy="29">约束检查</tspan></text>
+  <rect x="1090" y="465" width="190" height="82" rx="14" fill="#ffffff" stroke="#2563eb" stroke-width="2.4" filter="url(#softShadow)"/>
+<text x="1185" y="491.5" text-anchor="middle" dominant-baseline="middle" fill="#17376b" font-size="21" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-weight="600"><tspan x="1185" dy="0">仿真评估</tspan><tspan x="1185" dy="29">效果估计</tspan></text>
+  <rect x="1320" y="465" width="190" height="82" rx="14" fill="#ffffff" stroke="#2563eb" stroke-width="2.4" filter="url(#softShadow)"/>
+<text x="1415" y="491.5" text-anchor="middle" dominant-baseline="middle" fill="#17376b" font-size="21" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-weight="600"><tspan x="1415" dy="0">人工确认</tspan><tspan x="1415" dy="29">请求适配</tspan></text>
+  <rect x="705" y="665" width="295" height="76" rx="14" fill="#dbeafe" stroke="#2563eb" stroke-width="2.4" filter="url(#softShadow)"/>
+<text x="852.5" y="687.5" text-anchor="middle" dominant-baseline="middle" fill="#17376b" font-size="23" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-weight="600"><tspan x="852.5" dy="0">追溯与评估</tspan><tspan x="852.5" dy="31">任务轨迹/工具轨迹/质量评分</tspan></text>
+  <rect x="180" y="770" width="240" height="72" rx="14" fill="#ffffff" stroke="#2563eb" stroke-width="2.4" filter="url(#softShadow)"/>
+<text x="300" y="790.5" text-anchor="middle" dominant-baseline="middle" fill="#17376b" font-size="23" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-weight="600"><tspan x="300" dy="0">短期记忆</tspan><tspan x="300" dy="31">当前任务上下文</tspan></text>
+  <rect x="550" y="770" width="240" height="72" rx="14" fill="#ffffff" stroke="#2563eb" stroke-width="2.4" filter="url(#softShadow)"/>
+<text x="670" y="790.5" text-anchor="middle" dominant-baseline="middle" fill="#17376b" font-size="23" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-weight="600"><tspan x="670" dy="0">中期记忆</tspan><tspan x="670" dy="31">近期任务链/目标状态</tspan></text>
+  <rect x="920" y="770" width="240" height="72" rx="14" fill="#ffffff" stroke="#2563eb" stroke-width="2.4" filter="url(#softShadow)"/>
+<text x="1040" y="790.5" text-anchor="middle" dominant-baseline="middle" fill="#17376b" font-size="23" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-weight="600"><tspan x="1040" dy="0">长期经验资产</tspan><tspan x="1040" dy="31">案例/策略/复盘结论</tspan></text>
+  <rect x="1230" y="750" width="240" height="112" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2.4" filter="url(#softShadow)"/>
+<text x="1350" y="775" text-anchor="middle" dominant-baseline="middle" fill="#17376b" font-size="23" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-weight="600"><tspan x="1350" dy="0">经验治理</tspan><tspan x="1350" dy="31">记录-评估-抽取</tspan><tspan x="1350" dy="31">确认-复用</tspan></text>
+</svg>
