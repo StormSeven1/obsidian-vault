@@ -1,0 +1,31 @@
+# Army announces Next Generation Command and Control NGC2 prototype award
+
+- 原始链接：https://www.army.mil/article/287180/army_announces_next_generation_command_and_control_ngc2_prototype_award
+- 来源类型：U.S. Army official article
+- 本地保存状态：Markdown + HTML structured snapshot; body extracted via web.open
+- 研究价值：NGC2 原型合同、Team Anduril、4层技术栈、AI/ML 数据组织能力的最核心官方来源。
+
+## 核心要点
+
+- OTA 授予 Team Anduril，交付 NGC2 原型架构给第4步兵师。
+- 合同金额 99.6M 美元，周期 11 个月。
+- NGC2 被定义为 technology stack，包括 transport、infrastructure、data、applications 四层。
+- 强调将打破烟囱式作战系统，并使用 AI/ML 快速组织和分析数据。
+
+## 本地摘录 / 结构化正文
+
+By PEO C3N public affairs, July 18, 2025.
+
+ABERDEEN PROVING GROUND, Md. — The U.S. Army will continue experimentation and prototyping via an Other Transaction Authority (OTA) agreement to Team Anduril on behalf of Program Executive Office Command, Control, Communications, and Network (PEO C3N), to deliver a prototype architecture for the Army’s Next Generation Command and Control (NGC2) initiative to the 4th Infantry Division.
+
+The OTA, for $99.6 million over 11 months, requires Anduril and several teamed industry partners to provide an integrated and scalable suite of command and control (C2) warfighting capabilities across hardware, software, and applications, through a common and integrated data layer.
+
+NGC2 is not a single program or technology, but an ecosystem delivered as a “technology stack” of four layers including transport, infrastructure, data, and applications.
+
+This approach integrates information from previously siloed warfighting systems and enables the use of artificial intelligence and machine learning tools to rapidly organize and analyze data to improve commanders’ decision advantage.
+
+The Army plans to rapidly scale the prototype at division level with 4th ID, including multiple brigades, headquarters, and enablers. At Project Convergence Capstone 6, the 4th ID plans to utilize the NGC2 prototype equipment as its primary C2 system.
+
+---
+
+> 注：本文件为离线研究快照。美国陆军/DoD/DVIDS 类材料通常为公有领域或官方公开资料；企业官网、API 文档与媒体页面仅保留研究摘要和短摘录，建议以原始链接核验全文。

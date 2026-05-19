@@ -1,0 +1,27 @@
+# Palantir Defense OSDK overview
+
+- 原始链接：https://www.palantir.com/docs/defense-osdk/api/general/overview/build-with-the-defense-osdk
+- 来源类型：Palantir documentation
+- 本地保存状态：Markdown + HTML structured note; extracted via web.open
+- 研究价值：理解 Defense Ontology / JADC2 SDK / third-party application API layer。
+
+## 核心要点
+
+- Defense OSDK 为 JADC2 third-party applications 提供语义一致的数据层。
+- 抽象复杂、异构、跨域 warfighting data models。
+- Ontology SDK 生成 TypeScript/Python/Java/cURL 客户端。
+- 域包括 Common interfaces, Intelligence, Order of Battle, Sustainment, Targeting and Fires。
+
+## 本地摘录 / 结构化正文
+
+Palantir describes Defense OSDK as an API designed to abstract away complex, heterogeneous, and disparate data models across warfighting functions and domains.
+
+It provides an explicit, semantically consistent data layer consumable by third-party applications. Palantir says it modifies Defense OSDK alongside the Services so its types serve as a trusted foundation rather than a static data model.
+
+The Ontology SDK provides access to Defense OSDK interfaces, generates relevant functions and types for querying, provides TypeScript bindings for React development, and is secured by a token scoped to relevant ontological entities.
+
+Defense OSDK domains listed include Common interfaces across domains, Intelligence, Order of Battle, Sustainment, and Targeting and Fires.
+
+---
+
+> 注：本文件为离线研究快照。美国陆军/DoD/DVIDS 类材料通常为公有领域或官方公开资料；企业官网、API 文档与媒体页面仅保留研究摘要和短摘录，建议以原始链接核验全文。

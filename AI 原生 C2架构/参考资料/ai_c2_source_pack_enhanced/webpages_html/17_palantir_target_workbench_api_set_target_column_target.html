@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>Palantir Target Workbench API - Set Target Column Target</title>
+<style>body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Noto Sans SC",sans-serif;max-width:980px;margin:40px auto;padding:0 24px;line-height:1.65;color:#111}pre{white-space:pre-wrap;background:#f7f7f7;border:1px solid #ddd;padding:18px;border-radius:8px}a{color:#0645ad}</style>
+</head><body><pre># Palantir Target Workbench API - Set Target Column Target
+
+- 原始链接：https://www.palantir.com/docs/gotham/api/target-workbench-v2-resources/targets/set-target-column-target
+- 来源类型：Palantir API documentation
+- 本地保存状态：Markdown + HTML structured API note; extracted via web.open
+- 研究价值：核验目标状态/看板列流转 API。
+
+## 核心要点
+
+- Endpoint: PUT /api/v2/targetWorkbench/targets/{targetRid}/setTargetColumn。
+- Move a Target into a TargetBoardColumn from an old column。
+- newColumnId 默认值：DRAFT, PLAN_DEVELOPMENT, PLANNED, EXECUTION, CLOSED。
+- OAuth2 scope: api:target-write。
+
+## 本地摘录 / 结构化正文
+
+Endpoint: PUT /api/v2/targetWorkbench/targets/{targetRid}/setTargetColumn
+
+Purpose: Move a Target into a TargetBoardColumn from an old column.
+
+OAuth2 scope: api:target-write.
+
+Request body: SetTargetColumnTargetRequest with boardRid, newColumnId, baseRevisionId, clientId.
+
+newColumnId is equivalent to a collection column ID. Default values are: DRAFT (Identified target), PLAN_DEVELOPMENT (Prioritized target), PLANNED (In coordination), EXECUTION (In execution), CLOSED (Complete).
+
+Response body: EmptySuccessResponse.
+
+Error examples include Target Not On Target Board, Revision Outdated, and permission denied.
+
+---
+
+&gt; 注：本文件为离线研究快照。美国陆军/DoD/DVIDS 类材料通常为公有领域或官方公开资料；企业官网、API 文档与媒体页面仅保留研究摘要和短摘录，建议以原始链接核验全文。
+</pre></body></html>

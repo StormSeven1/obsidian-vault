@@ -1,0 +1,29 @@
+# Army leaders discuss operationalizing NGC2
+
+- 原始链接：https://www.army.mil/article/290501/army_leaders_discuss_operationalizing_ngc2
+- 来源类型：U.S. Army official article
+- 本地保存状态：Markdown + HTML structured snapshot; body extracted via web.open
+- 研究价值：从高层和部队角度说明 NGC2 是 ecosystem、integrated data layer、应用上/下架和 AI 只是手段。
+
+## 核心要点
+
+- TEM15 上陆军领导讨论 operationalizing NGC2。
+- Kaloostian 称 NGC2 不只是技术，而是 ecosystem。
+- Alex Miller 强调 AI 是手段而不是目的。
+- Patrick Ellis 强调 coherent integrated data layer / unified data layer。
+
+## 本地摘录 / 结构化正文
+
+At TEM15, Army leaders discussed operationalizing NGC2 as a way to enable commanders to make better, faster decisions.
+
+Brig. Gen. Michael Kaloostian described NGC2 as an ecosystem that will change how the Army fights, organizes, trains, and develops leaders.
+
+Dr. Alex Miller emphasized that technology and AI are not ends in themselves; they allow commanders to employ tools and formations and give feedback on what does not work.
+
+The article states that NGC2 collapses legacy mission command information systems into an integrated data layer where Army formations collectively operate. Maj. Gen. Patrick Ellis described one of the game-changers as organizing data into a coherent integrated data layer and consolidating data into a unified data layer versus separate hardware boxes.
+
+Ellis also described a future where applications can be onboarded and offboarded continuously, enabled by the common data layer. The article discusses C2 transport diversity, including smaller, survivable and mobile nodes, pLEO, 5G, and commander risk-informed choices.
+
+---
+
+> 注：本文件为离线研究快照。美国陆军/DoD/DVIDS 类材料通常为公有领域或官方公开资料；企业官网、API 文档与媒体页面仅保留研究摘要和短摘录，建议以原始链接核验全文。
