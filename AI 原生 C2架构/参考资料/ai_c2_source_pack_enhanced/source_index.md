@@ -35,31 +35,31 @@
 
 ## B. 未能直接作为 PDF 下载、但强烈建议继续保存/另存 PDF 的一手网页
 
-| 来源 | 链接 | 重点 |
-|---|---|---|
-| U.S. Army | https://www.army.mil/article/287180/army_announces_next_generation_command_and_control_ngc2_prototype_award | NGC2 原型合同授予 Team Anduril，确认 PEO C3N、4th ID、开放模块化和四层架构。 |
-| U.S. Army | https://www.army.mil/article/288233/army_announces_additional_competitive_award_for_next_generation_command_and_control_ngc2_prototyping_efforts | 第二条 NGC2 原型竞争线，理解 4th ID / 25th ID 并行原型。 |
-| U.S. Army | https://www.army.mil/article/288651/its_about_lethal_formations_ivy_division_launches_army_prototype_for_next_gen_command_and_control | Ivy Division 启动 NGC2 原型，强调 Ivy Sting/Ivy Mass 逐步增加复杂性、DDIL/电磁干扰场景。 |
-| U.S. Army | https://www.army.mil/article/290401/4th_infantry_division_showcases_ivy_sting_4_a_leap_forward_in_command_and_control | Ivy Sting 4 官方报道，核验 NGC2 持续演训进展。 |
-| U.S. Army CAC | https://usacac.army.mil/Article-Library/View-Content?ArtMID=575&ArticleID=2308 | MCCoE 在 Ivy Sting 5 做 C2 评估，适合研究“演训反馈驱动迭代”。 |
-| U.S. Army | https://www.army.mil/article/290501/army_leaders_discuss_operationalizing_ngc2 | NGC2 operationalizing 讨论，说明 NGC2 如何改变陆军作战。 |
-| U.S. Army | https://www.army.mil/article/290032/ngc2_at_the_tactical_edge_enabling_predictive_logistics_for_decision_dominance | NGC2 at tactical edge，说明 NGC2 与预测性后勤、四层技术栈。 |
-| Anduril | https://www.anduril.com/news/how-anduril-and-the-army-are-rewriting-fire-missions-with-ngc2 | Ivy Sting 1：Lattice Mesh + Palantir Target Workbench 支撑从总部到炮线的 targeting process。 |
-| Anduril | https://www.anduril.com/news/how-ngc2-is-expanding-the-battlefield-network-at-ivy-sting-2 | Ivy Sting 2：更多节点、传感器、士兵接入统一 mesh network。 |
-| Anduril | https://www.anduril.com/news/scaling-next-generation-command-and-control-from-prototype-to-fight | Ivy Sting 5：跨军种/跨密级 sensor-to-effector kill chain，无人工数据重录。 |
-| Anduril | https://www.anduril.com/news/anduril-awarded-usd99-6m-for-u-s-army-next-generation-command-and-control-prototype | Anduril 官方合同说明，强调与士兵 touchpoints 和 operational environments at scale。 |
-| Anduril | https://www.anduril.com/lattice/command-and-control | Lattice for C2 官方产品页，说明 AI-powered battle management platform、thousands of sensors/effectors、kill chain acceleration。 |
-| Anduril | https://www.anduril.com/news/anduril-selected-for-u-s-army-s-integrated-battle-command-system-maneuver-program | IBCS-M 官方来源：Lattice 成为 Counter-UAS missions 的 next-generation fire control platform。 |
-| Anduril | https://www.anduril.com/news/jiatf-401-selects-lattice-as-enterprise-tactical-command-and-control-platform-for-c-uas | JIATF-401 选择 Lattice 作为企业级 C-UAS 战术 C2 平台。 |
-| Palantir API Docs | https://www.palantir.com/docs/gotham/api/target-workbench-v2-resources/targets/target-basics | Target Workbench API - Target basics。 |
-| Palantir API Docs | https://www.palantir.com/docs/gotham/api/target-workbench/targetBoard/create-target-board | Target Board 创建 API。 |
-| Palantir API Docs | https://www.palantir.com/docs/gotham/api/target-workbench-v2-resources/targets/set-target-column-target | 目标 Column / 状态流转 API。 |
-| Palantir API Docs | https://www.palantir.com/docs/gotham/api/target-workbench-v2-resources/targets/create-target-intel-target | Target Intel 创建 API。 |
-| Palantir | https://www.palantir.com/defense/sdk/ | Palantir Defense OSDK，研究 Defense Ontology + API/SDK 扩展生态。 |
-| Northrop Grumman | https://www.northropgrumman.com/what-we-do/missile-defense/integrated-battle-command-system-ibcs | IBCS 官方产品页。 |
-| U.S. Army | https://www.army.mil/article/291023/ibcs_and_the_future_of_offensive_and_defensive_integrated_fires | IBCS 与 offensive / defensive integrated fires 的最新官方阐释。 |
-| U.S. Army | https://www.army.mil/article/278092/us_army_receives_first_complete_ibcs_delivery | IBCS 首套完整交付，核验 plug-and-fight / best weapon 相关说法。 |
-| U.S. Army | https://www.army.mil/article/265686/army_integrated_air_and_missile_defense_system_achieves_full_rate_production | IBCS 达到 full-rate production。 |
+| 来源                | 链接                                                                                                                                               | 重点                                                                                                                    |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| U.S. Army         | https://www.army.mil/article/287180/army_announces_next_generation_command_and_control_ngc2_prototype_award                                      | NGC2 原型合同授予 Team Anduril，确认 PEO C3N、4th ID、开放模块化和四层架构。                                                                |
+| U.S. Army         | https://www.army.mil/article/288233/army_announces_additional_competitive_award_for_next_generation_command_and_control_ngc2_prototyping_efforts | 第二条 NGC2 原型竞争线，理解 4th ID / 25th ID 并行原型。                                                                              |
+| U.S. Army         | https://www.army.mil/article/288651/its_about_lethal_formations_ivy_division_launches_army_prototype_for_next_gen_command_and_control            | Ivy Division 启动 NGC2 原型，强调 Ivy Sting/Ivy Mass 逐步增加复杂性、DDIL/电磁干扰场景。                                                    |
+| U.S. Army         | https://www.army.mil/article/290401/4th_infantry_division_showcases_ivy_sting_4_a_leap_forward_in_command_and_control                            | Ivy Sting 4 官方报道，核验 NGC2 持续演训进展。                                                                                      |
+| U.S. Army CAC     | https://usacac.army.mil/Article-Library/View-Content?ArtMID=575&ArticleID=2308                                                                   | MCCoE 在 Ivy Sting 5 做 C2 评估，适合研究“演训反馈驱动迭代”。                                                                           |
+| U.S. Army         | https://www.army.mil/article/290501/army_leaders_discuss_operationalizing_ngc2                                                                   | NGC2 operationalizing 讨论，说明 NGC2 如何改变陆军作战。                                                                            |
+| U.S. Army         | https://www.army.mil/article/290032/ngc2_at_the_tactical_edge_enabling_predictive_logistics_for_decision_dominance                               | NGC2 at tactical edge，说明 NGC2 与预测性后勤、四层技术栈。                                                                           |
+| Anduril           | https://www.anduril.com/news/how-anduril-and-the-army-are-rewriting-fire-missions-with-ngc2                                                      | Ivy Sting 1：Lattice Mesh + Palantir Target Workbench 支撑从总部到炮线的 targeting process。                                     |
+| Anduril           | https://www.anduril.com/news/how-ngc2-is-expanding-the-battlefield-network-at-ivy-sting-2                                                        | Ivy Sting 2：更多节点、传感器、士兵接入统一 mesh network。                                                                             |
+| Anduril           | https://www.anduril.com/news/scaling-next-generation-command-and-control-from-prototype-to-fight                                                 | Ivy Sting 5：跨军种/跨密级 sensor-to-effector kill chain，无人工数据重录。                                                            |
+| Anduril           | https://www.anduril.com/news/anduril-awarded-usd99-6m-for-u-s-army-next-generation-command-and-control-prototype                                 | Anduril 官方合同说明，强调与士兵 touchpoints 和 operational environments at scale。                                                 |
+| Anduril           | https://www.anduril.com/lattice/command-and-control                                                                                              | Lattice for C2 官方产品页，说明 AI-powered battle management platform、thousands of sensors/effectors、kill chain acceleration。 |
+| Anduril           | https://www.anduril.com/news/anduril-selected-for-u-s-army-s-integrated-battle-command-system-maneuver-program                                   | IBCS-M 官方来源：Lattice 成为 Counter-UAS missions 的 next-generation fire control platform。                                  |
+| Anduril           | https://www.anduril.com/news/jiatf-401-selects-lattice-as-enterprise-tactical-command-and-control-platform-for-c-uas                             | JIATF-401 选择 Lattice 作为企业级 C-UAS 战术 C2 平台。                                                                            |
+| Palantir API Docs | https://www.palantir.com/docs/gotham/api/target-workbench-v2-resources/targets/target-basics                                                     | Target Workbench API - Target basics。                                                                                 |
+| Palantir API Docs | https://www.palantir.com/docs/gotham/api/target-workbench/targetBoard/create-target-board                                                        | Target Board 创建 API。                                                                                                  |
+| Palantir API Docs | https://www.palantir.com/docs/gotham/api/target-workbench-v2-resources/targets/set-target-column-target                                          | 目标 Column / 状态流转 API。                                                                                                 |
+| Palantir API Docs | https://www.palantir.com/docs/gotham/api/target-workbench-v2-resources/targets/create-target-intel-target                                        | Target Intel 创建 API。                                                                                                  |
+| Palantir          | https://www.palantir.com/defense/sdk/                                                                                                            | Palantir Defense OSDK，研究 Defense Ontology + API/SDK 扩展生态。                                                             |
+| Northrop Grumman  | https://www.northropgrumman.com/what-we-do/missile-defense/integrated-battle-command-system-ibcs                                                 | IBCS 官方产品页。                                                                                                           |
+| U.S. Army         | https://www.army.mil/article/291023/ibcs_and_the_future_of_offensive_and_defensive_integrated_fires                                              | IBCS 与 offensive / defensive integrated fires 的最新官方阐释。                                                                |
+| U.S. Army         | https://www.army.mil/article/278092/us_army_receives_first_complete_ibcs_delivery                                                                | IBCS 首套完整交付，核验 plug-and-fight / best weapon 相关说法。                                                                     |
+| U.S. Army         | https://www.army.mil/article/265686/army_integrated_air_and_missile_defense_system_achieves_full_rate_production                                 | IBCS 达到 full-rate production。                                                                                         |
 
 ## C. 下载失败或未纳入的说明
 
