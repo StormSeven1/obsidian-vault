@@ -1,0 +1,1 @@
+用的是 Astro 框架，纯静态博客和 hexo，hugo 一样，可以部署在 page 上，主题用的是 Mizuki
