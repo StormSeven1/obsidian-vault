@@ -1,12 +1,13 @@
 ---
-title: "Command & Control"
-source: "https://www.anduril.com/lattice/command-and-control?utm_source=chatgpt.com"
+title: Command & Control
+source: https://www.anduril.com/lattice/command-and-control?utm_source=chatgpt.com
 author:
 published:
 created: 2026-05-19
-description: "Lattice for Command & Control is an AI-powered battle management platform that integrates thousands of sensors and effectors to accelerate complex kill chains at machine speed."
+description: Lattice for Command & Control is an AI-powered battle management platform that integrates thousands of sensors and effectors to accelerate complex kill chains at machine speed.
 tags:
-  - "anduril"
+  - anduril
+  - c2
 ---
 COMMAND AND CONTROL
 
